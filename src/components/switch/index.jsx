@@ -1,5 +1,5 @@
 const Switch = (props) => {
-  const { extra, color, ...rest } = props;
+  const { extra, id, color, ...rest } = props;
   return (
     <input
       type="checkbox"

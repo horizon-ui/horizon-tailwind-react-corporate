@@ -5,6 +5,7 @@ function useOutsideAlerter(ref, setX) {
     /**
      * Alert if clicked on outside of element
      */
+    // function handleClickOutside(event: React.MouseEvent<HTMLElement>) {
     function handleClickOutside(event) {
       if (ref.current && !ref.current.contains(event.target)) {
         setX(false);
