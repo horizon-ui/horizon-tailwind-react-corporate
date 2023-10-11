@@ -56,7 +56,7 @@ const HistoryCard = () => {
   ];
 
   return (
-    <Card extra={"mt-3 !z-5 overflow-hidden"}>
+    <Card extra={"mt-3 !z-5 overflow-hidden px-3"}>
       {/* HistoryCard Header */}
       <div className="flex items-center justify-between rounded-t-3xl p-3">
         <div className="text-lg font-bold text-navy-700 dark:text-white">
@@ -70,7 +70,7 @@ const HistoryCard = () => {
       {/* History CardData */}
 
       {HistoryData.map((data, index) => (
-        <div className="flex h-full w-full items-start justify-between bg-white px-3 py-[20px] hover:shadow-2xl dark:!bg-navy-800 dark:shadow-none dark:hover:!bg-navy-700">
+        <div className="flex h-full w-full items-start justify-between rounded-md border-[1px] border-[transparent] bg-white px-3 py-[20px] transition-all duration-150 hover:border-gray-200 dark:!bg-navy-800 dark:hover:!bg-navy-700">
           <div className="flex items-center gap-3">
             <div className="flex h-16 w-16 items-center justify-center">
               <img
