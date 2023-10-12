@@ -70,7 +70,7 @@ const HistoryCard = () => {
       {/* History CardData */}
 
       {HistoryData.map((data, index) => (
-        <div className="flex h-full w-full items-start justify-between rounded-md border-[1px] border-[transparent] bg-white px-3 py-[20px] transition-all duration-150 hover:border-gray-200 dark:!bg-navy-800 dark:hover:!bg-navy-700">
+        <div className="flex h-full w-full items-start justify-between rounded-md border-[1px] border-[transparent] bg-white px-3 py-[20px] transition-all duration-150 hover:border-gray-200 dark:!bg-navy-800 dark:hover:border-white/20 dark:hover:!bg-navy-700">
           <div className="flex items-center gap-3">
             <div className="flex h-16 w-16 items-center justify-center">
               <img

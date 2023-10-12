@@ -30,7 +30,7 @@ function TopCreatorTable(props) {
   return (
     <Card extra={"h-[600px] w-full"}>
       {/* Top Creator Header */}
-      <div className="flex h-fit w-full items-center justify-between rounded-t-2xl bg-white px-4 pt-4 pb-[20px] shadow-2xl shadow-gray-100 dark:!bg-navy-700 dark:shadow-none">
+      <div className="flex h-fit w-full items-center justify-between rounded-t-2xl bg-white px-4 pb-[20px] pt-4 shadow-2xl shadow-gray-100 dark:!bg-navy-700 dark:shadow-none">
         <h4 className="text-lg font-bold text-navy-700 dark:text-white">
           Top Creators
         </h4>
@@ -53,7 +53,7 @@ function TopCreatorTable(props) {
                     {...column.getHeaderProps(column.getSortByToggleProps())}
                     key={index}
                   >
-                    <div className="flex items-center justify-between pt-4 pb-2 text-start uppercase tracking-wide text-gray-600 sm:text-xs lg:text-xs">
+                    <div className="flex items-center justify-between pb-2 pt-4 text-start uppercase tracking-wide text-gray-600 sm:text-xs lg:text-xs">
                       {column.render("Header")}
                     </div>
                   </th>
